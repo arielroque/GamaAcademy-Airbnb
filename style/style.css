@@ -1,0 +1,26 @@
+.btn-search{
+    width: 130px;
+    height: 60px;
+    background-color: #FE375C !important;
+    color: white !important;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    background-color: gray;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+
+.btn-default{
+    background-color: #FE375C !important;
+    color: white !important;
+}
+
+.option-bar{
+    margin-top: 20px;
+}
