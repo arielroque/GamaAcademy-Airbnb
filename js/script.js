@@ -8,15 +8,17 @@ xhttp.onreadystatechange = function () {
 
         let data = JSON.parse(xhttp.responseText);
 
-        for (let i = 0; i < data.length;i++){
+        for (let i = 0; i < data.length; i++) {
 
             console.log(data[i]);
 
             let card = document.createElement("div");
             card.innerHTML = " <div class=\"card\" style=\"width: 18rem;\">\n" +
-                "                <img class=\"card-img-top\" src="+data[i].photo+" alt=\"Card image cap\">\n" +
+                "                <img class=\"card-img-top\" src=" + data[i].photo + " alt=\"Card image cap\">\n" +
                 "                <div class=\"card-body\">\n" +
-                "                <p class=\"card-text\">"+data[i].name+"</p>\n" +
+                "<h6 class=\"card-subtitle mb-2 text-muted\">"+data[i].property_type+"</h6>" +
+                "                <p class=\"card-text\">" + data[i].name + "</p>\n" +
+                "<span class=\"badge badge-price\">" +"R$ "+ data[i].price + " / noite"+ "</span>"+
                 "            </div>\n" +
                 "            </div>"
             document.getElementById("places").appendChild(card);
