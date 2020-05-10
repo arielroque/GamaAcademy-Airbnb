@@ -35,6 +35,17 @@
     background-color: #FE375C;
 }
 
+.p-guest{
+    margin-top: 19px;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.p-size{
+    margin-top: 19px;
+    font-size: 18px;
+}
+
 #places{
     margin-top: 30px;
 }

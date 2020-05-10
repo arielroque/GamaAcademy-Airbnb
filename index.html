@@ -55,23 +55,20 @@
 
         </div>
 
-        <div class="col-sm-2">
+        <div class="col-sm-4">
             <div class="card">
                 <div class="card-body">
                     <blockquote class="blockquote mb-0">
-                        <p>Check-in</p>
-                        <input type="date" name="birthday" class="form-control">
-                    </blockquote>
-                </div>
-            </div>
-        </div>
+                        <p>Check-in/Checkout</p>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <input type="date" name="check-in" class="form-control">
+                            </div>
+                            <div class="col-sm-6">
+                                <input type="date" name="check-out" class="form-control">
+                            </div>
 
-        <div class="col-sm-2">
-            <div class="card">
-                <div class="card-body">
-                    <blockquote class="blockquote mb-0">
-                        <p>Check-in</p>
-                        <input type="date" name="birthday" class="form-control">
+                        </div>
                     </blockquote>
                 </div>
             </div>
@@ -100,24 +97,36 @@
                             </div>
                             <div class="modal-body">
                                 <div class="row">
-                                    <p>Adultos</p>
-                                    <button type="button" class="btn"><i data-feather="minus-circle"></i></button>
-                                    <p>0</p>
-                                    <button type="button" class="btn"><i data-feather="plus-circle"></i></button>
+                                    <div class="col-sm-3">
+                                        <p class="p-guest">Adultos</p>
+                                    </div>
+                                    <div class=" row offset-md-4 col-sm-5">
+                                        <button type="button" class="btn"><i data-feather="minus-circle"></i></button>
+                                        <p class="p-size">0</p>
+                                        <button type="button" class="btn"><i data-feather="plus-circle"></i></button>
+                                    </div>
                                 </div>
 
                                 <div class="row">
-                                    <p>Crianças</p>
-                                    <button type="button" class="btn"><i data-feather="minus-circle"></i></button>
-                                    <p>0</p>
-                                    <button type="button" class="btn"><i data-feather="plus-circle"></i></button>
+                                    <div class="col-sm-3">
+                                        <p class="p-guest">Crianças</p>
+                                    </div>
+                                    <div class=" row offset-md-4 col-sm-5">
+                                        <button type="button" class="btn"><i data-feather="minus-circle"></i></button>
+                                        <p class="p-size">0</p>
+                                        <button type="button" class="btn"><i data-feather="plus-circle"></i></button>
+                                    </div>
                                 </div>
 
                                 <div class="row">
-                                    <p>Bebês</p>
-                                    <button type="button" class="btn"><i data-feather="minus-circle"></i></button>
-                                    <p>0</p>
-                                    <button type="button" class="btn"><i data-feather="plus-circle"></i></button>
+                                    <div class="col-sm-3">
+                                        <p class="p-guest">Bebês</p>
+                                    </div>
+                                    <div class=" row offset-md-4 col-sm-5">
+                                        <button type="button" class="btn"><i data-feather="minus-circle"></i></button>
+                                        <p class="p-size">0</p>
+                                        <button type="button" class="btn"><i data-feather="plus-circle"></i></button>
+                                    </div>
                                 </div>
                             </div>
                             <div class="modal-footer">
@@ -129,7 +138,7 @@
             </div>
         </div>
 
-        <div class="col-sm-2">
+        <div class="col-sm-1">
             <button type="button" class="btn btn-search"><i data-feather="search"></i> Buscar</button>
         </div>
     </div>
