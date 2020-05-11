@@ -3,7 +3,7 @@
 Website for educational purposes developed for the challenge created by Gama Academy
 
 # Challenge
--create a page similar to Airbnb using the consumption of the rooms API, using Javascript Vanilla and Flexbox to organize the cards on the screen, from this database here.
+- Create a page similar to Airbnb using the consumption of the rooms API, using Javascript Vanilla and Flexbox to organize the cards on the screen, from this database here.
 
 
 # Screenshot
